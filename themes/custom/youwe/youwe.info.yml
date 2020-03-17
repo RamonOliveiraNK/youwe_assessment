@@ -1,0 +1,6 @@
+name: Youwe Theme
+type: theme
+base theme: classy
+description: 'A theme for Youwe assessment.'
+package: Custom
+core: 8.x

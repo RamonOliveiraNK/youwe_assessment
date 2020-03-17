@@ -1,0 +1,6 @@
+<?php
+
+function youwe_preprocess_node(&$variables) {
+
+  echo 'ok';
+}
