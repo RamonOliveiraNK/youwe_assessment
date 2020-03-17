@@ -1,0 +1,5 @@
+name: Youwe Module
+description: A custom module for the Youwe assessment site.
+package: Custom
+type: module
+core: 8.x

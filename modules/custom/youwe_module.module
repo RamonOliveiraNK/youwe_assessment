@@ -1,0 +1,21 @@
+<?php
+
+use Drupal\views\Views;
+
+/**
+ * @param $vars
+ */
+function youwe_module_preprocess_node(&$vars) {
+
+  // Get this node's type.
+  $node_type = &$vars["node"]->getType();
+
+  if ($node_type == 'resume') {
+    // If it's a resume, we load the view results from 'Top 5 Skills'.
+    $view = Views::getView('candidate_top_5_skills');
+    echo 'ok';
+  }
+
+
+
+}

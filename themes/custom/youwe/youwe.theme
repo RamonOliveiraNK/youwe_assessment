@@ -1,6 +1,5 @@
 <?php
 
-function youwe_preprocess_node(&$variables) {
+function youwe_preprocess_paragraph(&$variables) {
 
-  echo 'ok';
 }
